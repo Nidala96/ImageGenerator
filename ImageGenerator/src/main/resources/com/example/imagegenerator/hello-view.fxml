@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="579.0" prefWidth="907.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.imagegenerator.HelloController">
+   <children>
+      <ImageView fx:id="ifimage" fitHeight="345.0" fitWidth="780.0" layoutX="64.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="tfinsert" layoutX="64.0" layoutY="95.0" prefHeight="25.0" prefWidth="729.0" />
+      <Button fx:id="btninsert" layoutX="792.0" layoutY="95.0" mnemonicParsing="false" onAction="#insert" text="Insert" />
+   </children>
+</AnchorPane>
